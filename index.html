@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>보따리사막</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>보따리사막</h1>
-        <ul>
+    <header class="header_wrap">
+      <h1 class="logo">보따리사막</h1>
+      <nav class="menu">
+        <ul class="menu_list">
+          <a class="menu_logo" href="https://www.kr.playblackdesert.com/ko-KR/Main/Index"></a>
           <li>
             <a href="https://www.kr.playblackdesert.com/ko-KR/News/Notice"
               >새소식</a
@@ -44,37 +46,37 @@
           </li>
           <li>
             <a href="https://kr.pearlabyss.com/Support/Start">고객센터</a>
-          </li>
+          </li>          
+        </ul>
+        <div class="login">
           <div>
-            <button>
-              <a
-                href="https://account.pearlabyss.com/ko-KR/Member/Login?_returnUrl=https%3a%2f%2faccount.pearlabyss.com%2fko-KR%2fMember%2fLogin%2fAuthorizeOauth%3fresponse_type%3dcode%26scope%3dprofile%26state%3d%252bpUFcUf%252bNfwjASYxBdQQrrAFziXRRtu47A84lCJPdHz%252fp%252bqNYPqqWLqaZ7mAe93wUUM2%252fWKZuin8K7KjL3fguH6fOf0gkdwaO%252bSjMYleC4M%253d%26client_id%3dclient_id%26redirect_uri%3dhttps%3a%2f%2fwww.kr.playblackdesert.com%2fko-KR%2fLogin%2fPearlabyss%2fOauth2CallBack%26isLogout%3dFalse%26redirectAccountUri%3d"
-                ><img
-                  src="https://s1.pearlcdn.com/KR/contents/img/common/spr_etc.png?v=3"
-                />로그인</a
-              >
-            </button>
-            <button>
+            <a
+              href="https://account.pearlabyss.com/ko-KR/Member/Login?_returnUrl=https%3a%2f%2faccount.pearlabyss.com%2fko-KR%2fMember%2fLogin%2fAuthorizeOauth%3fresponse_type%3dcode%26scope%3dprofile%26state%3d%252bpUFcUf%252bNfwjASYxBdQQrrAFziXRRtu47A84lCJPdHz%252fp%252bqNYPqqWLqaZ7mAe93wUUM2%252fWKZuin8K7KjL3fguH6fOf0gkdwaO%252bSjMYleC4M%253d%26client_id%3dclient_id%26redirect_uri%3dhttps%3a%2f%2fwww.kr.playblackdesert.com%2fko-KR%2fLogin%2fPearlabyss%2fOauth2CallBack%26isLogout%3dFalse%26redirectAccountUri%3d"
+              ><i class="fa-solid fa-right-to-bracket"></i>로그인</a
+            >
+            </div>
+            <div>
               <a href="https://www.kr.playblackdesert.com/ko-KR/Data/Down"
                 >게임 시작</a
               >
-            </button>
-          </div>
-        </ul>
+            </div>
+        </div>
       </nav>
     </header>
-    <main>
-      <div>
-        <video controls autoplay>
-          <source
-            src="https://s1.pearlcdn.com/global_static/video/drakania_awaken_looping.webm"
-          />
-        </video>
-      </div>
-      <div>
-        <h2>드라카니아, 각성</h2>
-        <p>시즌: 용기사에서!</p>
-        <button>지금 시작하기</button>
+    <main class="main">
+      <div class="video_wrap">
+        <div class="video">
+          <video autoplay loop>
+            <source
+              src="https://s1.pearlcdn.com/global_static/video/drakania_awaken_looping.webm"
+            />
+          </video>
+          <div class="video_text">
+            <h2>드라카니아, 각성</h2>
+            <p>시즌: 용기사에서!</p>
+            <button>지금 시작하기</button>
+          </div>
+        </div>
       </div>
     </main>
     <section>
@@ -598,4 +600,5 @@
       </section>
     </section>
   </body>
+  <script src="https://kit.fontawesome.com/d13d05d873.js" crossorigin="anonymous"></script>
 </html>

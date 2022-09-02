@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=M+PLUS+Rounded+1c&family=Nanum+Gothic+Coding&family=Song+Myung&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo {
+  position: absolute;
+  color: white;
+  width: 180px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  z-index: 1;
+  font-family: "Song Myung", serif;
+}
+.menu {
+  position: relative;
+  background: black;
+}
+.menu_list {
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+}
+.menu_logo {
+  position: relative;
+  width: 180px;
+  height: 60px;
+  z-index: 1;
+}
+.menu_list > li {
+  position: relative;
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+}
+.menu_list > li > a {
+  display: inline-block;
+  text-decoration-line: none;
+  color: rgb(236, 236, 236);
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+}
+.menu > div {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.login {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 60px;
+  font-family: "Lato", sans-serif;
+}
+.login > div > a {
+  display: inline-block;
+  color: white;
+  text-decoration-line: none;
+}
+
+.login > div:first-child {
+  line-height: 60px;
+  width: 100px;
+  text-align: center;
+}
+.login > div:first-child > a:hover {
+  color: rgb(224, 202, 72);
+  height: auto;
+}
+
+.login > div:last-child {
+  background: rgb(158, 112, 13);
+  width: 200px;
+  text-align: center;
+}
+
+.login > div:last-child > a {
+  line-height: 60px;
+  width: 200px;
+}
+
+.login > div:last-child:hover {
+  background: rgb(185, 167, 131);
+}
+
+body {
+  padding-top: 60px;
+}
